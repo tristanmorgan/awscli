@@ -2,7 +2,7 @@
 
 [![Docker Image](https://img.shields.io/badge/docker-tristanmorgan%2Fawscli-blue.svg)](https://hub.docker.com/r/tristanmorgan/awscli/)
 
-Bundles the AWS CLI in a Docker containter.
+Bundles the [AWS CLI](https://github.com/aws/aws-cli) in a Docker containter.
 
 ## Usage
 
