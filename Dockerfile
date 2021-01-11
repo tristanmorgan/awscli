@@ -12,6 +12,10 @@ RUN apk upgrade --no-cache \
  && apk del --no-cache .build-deps \
  && rm -rf /root/.cache /src
 
+COPY gen-ac-index /usr/bin/gen-ac-index
+RUN /usr/bin/gen-ac-index \
+ && rm -f /usr/bin/gen-ac-index
+
 ENV PAGER=more
 WORKDIR /work
 ENTRYPOINT ["aws"]
