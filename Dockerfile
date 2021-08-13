@@ -14,7 +14,7 @@ RUN apk upgrade --no-cache \
  && rm -rf /root/.cache /src
 
 COPY gen-ac-index /usr/bin/gen-ac-index
-RUN /usr/bin/gen-ac-index \
+RUN /usr/bin/gen-ac-index --include-builtin-index \
  && rm -f /usr/bin/gen-ac-index
 
 ENV PAGER=more
