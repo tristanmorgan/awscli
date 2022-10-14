@@ -4,6 +4,11 @@
 
 Bundles the [AWS CLI](https://github.com/aws/aws-cli) in a Docker containter.
 
+## Repo status
+
+I don't find I'm using this enough anymore, so I'll leave the code public. Mostly I'm just doing the
+occasional hack on AWS with my _limited_ [aws-ruby-cli](https://github.com/tristanmorgan/awsrubycli).
+
 ## Usage
 
 To use like it was installed locally, set an alias:
